@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css" />
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="./index.html"
+        ><img class="logo" src="css/images/logo.svg" alt=""
+      /></a>
+      <svg
+        class="icon nav__toggler"
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-list"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+        />
+      </svg>
+      <ul class="nav__list list collapsible__content">
+        <li class="nav__item"><a href="/index.html">Home</a></li>
+        <li class="nav__item"><a href="/About me.html">About Me</a></li>
+        <li class="nav__item"><a href="/project.html">Project </a></li>
+        <li class="nav__item"><a href="/social media.html">Social Media </a></li>
+      </ul>
+    </nav>
+    <section class="block">
+      <header class="block__header">
+        <h2>Welcome</h2>
+      </header>
+      <div class="card testimonial">
+        <div class="grid grid--1x2">
+            <blockquote class="quote">
+                <p class="quote__text">
+                  My name is Emile Tamanji, people call me Emile. I am currently 17 years old and living in Upper Darby Pennsylvania. I  graduated from Upper Darby High School on June 12, 2023. I am currently enrolled in Delaware County Community College as a computer science major to earn an assistant degree. Then transfer to a University to earn my bachelor's degree in computer science.
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__image">
+                      <svg class="icon icon--primary quote__line">
+                        <use :href="images/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">Emile Tamanji</h3>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+          <div class="testimonial__image">
+            <img
+              src="css/images/cssEmle.webp"
+              alt="A happy, smiling customer"
+            />
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container grid footer_sections"> 
+        <section class="collapsible collapsible--expanded footer_section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading"><a class="a_link" href="index.html">Home</a></h2>
+        </section>
+        <section class="collapsible footer_section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading"><a class="a_link" href="About me.html">About Me</a></h2>
+          </div>
+        </section>
+        <section class="collapsible footer_section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading"><a  a class="a_link" href="project.html">Project</a></h2>
+          </div>
+        
+        </section>
+        <section class="collapsible footer_section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading"><a a class="a_link" href="social media.html">Social Media</a></h2>
+        </section>
+        <div class="footer__brand">
+          <a href=""><img class="logo" src="css/images/logo.svg" alt="" /></a>
+          <p class="footer__copyright">Created by Emile Tamanji</p>
+        </div>
+      </div>
+      </footer>
+  </body>
+</html>
